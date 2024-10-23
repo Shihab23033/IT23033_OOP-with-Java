@@ -1,5 +1,5 @@
 public class testjava{
 	public static void main( String[] args) {
-		System.out.println("it's raining outside");
+		System.out.println("It's a rainy day!");
 	}
 }
