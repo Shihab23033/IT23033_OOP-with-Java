@@ -8,7 +8,7 @@ public class file_reading_advance {
         try{
             File file= new File("Input.txt");
             Scanner scanf= new Scanner(file);
-            PrintWriter printf=new PrintWriter("Output 2.txt");
+            PrintWriter printf=new PrintWriter(new File("Output 2.txt"));
             if(scanf.hasNextLine()){
                 String x =scanf.nextLine();
                 String[] s= x.split(",");
