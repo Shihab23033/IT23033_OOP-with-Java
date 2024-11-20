@@ -1,0 +1,7 @@
+(Name) (score) (date) (Time) (Level)
+hjgh 2 2024-11-20 10:14:10 Beginner
+abcd 2 2024-11-20 10:15:01 Beginner
+Rohan 8 2024-11-20 13:45:17 Beginner
+kdfjh 2 2024-11-20 14:42:27 Beginner
+kdfjh 0 2024-11-20 14:42:37 Advance
+dfhg 2 2024-11-20 14:45:52 Beginner
