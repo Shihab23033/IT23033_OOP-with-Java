@@ -4,7 +4,7 @@ public class QuizGame {
     public static void main(String[] args) {
         int score=0;
         System.out.println("Welcome to Quiz Game!");
-        String[][] qus= new String[100][100];
+        String[][] qus= new String[5][100];
         qus[0][0]="1) What is the capital of Bangladesh?";
         qus[0][1]="a. Delhi";
         qus[0][2]="b. Dhaka";
@@ -53,7 +53,7 @@ public class QuizGame {
             }
 
         }
-        System.out.println("Your score is: "+score);
+        System.out.println("Your score is: "+score+"/25");
 
     }
 }
