@@ -53,7 +53,7 @@ public class QuizGame {
             }
 
         }
-        System.out.println("Your score is: "+score+"/25");
+        System.out.println("Your score is: "+score+"/25b");
 
     }
 }
