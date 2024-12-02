@@ -82,7 +82,7 @@ public class CGPA_calculator {
             grade_sum+=(grt*cradit);
 
         }
-        float cgpa=grade_sum/(float)cradit_sum;
+        float cgpa=grade_sum/(float)total_cradit;
 
         System.out.println("Student ID: "+id);
         System.out.println("Credit Taken: "+total_cradit);
