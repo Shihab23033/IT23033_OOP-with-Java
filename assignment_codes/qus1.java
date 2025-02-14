@@ -1,20 +1,19 @@
-//Reading highest value of a series from a file and writing the sum into another file
+package assignment_codes;
 import java.io.File;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class file_reading_advance {
+public class qus1 {
     public static void main(String[] args) {
         try{
-            File file= new File("Input.txt");
+            File file= new File("D:\\Codes\\IT23033_OOP-with-Java\\assignment_codes\\Input.txt");
             Scanner scanf= new Scanner(file);
-            PrintWriter printf=new PrintWriter(new File("Output 2.txt"));
+            PrintWriter printf=new PrintWriter(new File("D:\\Codes\\IT23033_OOP-with-Java\\assignment_codes\\Output.txt"));
             if(scanf.hasNextLine()){
                 String x =scanf.nextLine();
                 String[] s= x.split(",");
                 for(int i=0;i<s.length;i++){
                     int n= Integer.parseInt(s[i]); 
-                    //System.out.println(n);
                     int ssum=(n*(n+1))/2;
                     printf.print(ssum);
                     if(i!=s.length-1)
@@ -30,5 +29,4 @@ public class file_reading_advance {
         }
     } 
 }
-//Md Shihabul Islam(IT23033)
 

@@ -33,6 +33,7 @@ public class FileToFactorion {
                 }
                 System.out.println("\nThere are "+c+" factorions");
             }
+            fsc.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
