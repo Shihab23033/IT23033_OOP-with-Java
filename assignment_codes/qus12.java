@@ -28,7 +28,7 @@ class DivisorMultipleClass extends BaseClass {
         if (b == 0) {
             return a;
         }
-        return GCD(b, a % b);
+        return GCD(b, a%b);
     }
     
     int LCM(int a, int b) {
@@ -38,14 +38,11 @@ class DivisorMultipleClass extends BaseClass {
 }
 
 class NumberConversionClass extends BaseClass {
-    void convertNumber(int number) {
-        String b = Integer.toBinaryString(number);
-        String h = Integer.toHexString(number);
-        String o = Integer.toOctalString(number);
-
-        printResult("Binary of " + number, b);
-        printResult("Hexadecimal of " + number, h);
-        printResult("Octal of " + number, o);
+    void convertNumber(int n) {
+        
+        printResult("Binary of " + n, Integer.toBinaryString(n));
+        printResult("Hexadecimal of " + n, Integer.toHexString(n));
+        printResult("Octal of " + n, Integer.toOctalString(n));
     }
 }
 
