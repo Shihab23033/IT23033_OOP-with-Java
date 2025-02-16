@@ -5,15 +5,17 @@ import java.util.Scanner;
 
 public class qus14 {
     public static void main(String[] args) {
-        String s;
+        int n;
         Scanner sc=new Scanner(System.in);
-        s=sc.nextLine();
+        n=sc.nextInt();
         BigInteger fact =BigInteger.ONE;
-        BigInteger n= new BigInteger(s);
-        for(BigInteger i= BigInteger.ONE;(i.compareTo(n)<=0);i.add(BigInteger.ONE))
-            fact=fact.multiply(i);
+       // BigInteger m =BigInteger.ONE;
+        for(int i=1;i<=n;i++)
+        {
+            fact=fact.multiply(BigInteger.valueOf(i));
+           // m=m.add(BigInteger.ONE);
+        }
         System.out.println(fact);
-
         sc.close();
     }
 }
