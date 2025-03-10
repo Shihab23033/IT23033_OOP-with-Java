@@ -3,14 +3,14 @@ package Lab_Final;
 import java.util.Arrays;
 
 public class Q1 {
-    public static void reverse(float[] arr) {
-        int left = 0, right = arr.length - 1;
-        while (left < right) {
-            float temp = arr[left];
-            arr[left] = arr[right];
-            arr[right] = temp;
-            left++;
-            right--;
+    static void reverse(float[] arr) {
+        int l = 0,r = arr.length-1;
+        while (l < r) {
+            float temp = arr[l];
+            arr[l] = arr[r];
+            arr[r] = temp;
+            l++;
+            r--;
         }
     }
 
